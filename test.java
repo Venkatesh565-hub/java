@@ -1,9 +1,7 @@
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
 
-public class HelloAppTest {
+public class test {
     @Test
     public void testGreeting() {
-        assertEquals("Hello, DevOps!", HelloApp.greet());
+        assertEquals("Hello, DevOps!", test.greet());
     }
 }
